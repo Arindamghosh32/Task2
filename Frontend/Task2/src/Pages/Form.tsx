@@ -68,7 +68,7 @@ const Form = () => {
 
     return (
         <Container maxWidth="md">
-            <Paper elevation={3} sx={{ p: 4, borderRadius: 3, m: 2 }}>
+            <Paper elevation={3} sx={{ p: 4, borderRadius: 3, m: 2,bgcolor:"background.paper",color:"text.primary",border:"1px solid",borderColor:"divider" }}>
                 <Typography variant="h5" align="center" gutterBottom>
                     Job Form
                 </Typography>
